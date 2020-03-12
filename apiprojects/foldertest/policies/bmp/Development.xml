@@ -13,7 +13,7 @@
     <setMessageDetailsConfiguration>
         <FormParams/>
         <headers/>
-        <payload>FIORANO TESTING 1234565</payload>
+        <payload>FIORANO TESTING</payload>
         <QueryParams/>
         <setPayload>false</setPayload>
     </setMessageDetailsConfiguration>
