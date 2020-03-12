@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<serviceCallOutConfiguration policyName="SERVICE_CALLOUT" policyType="CALLOUT">
+    <policyInstanceName>sco</policyInstanceName>
+    <async>false</async>
+    <loadBalancerStrategy>ROUND_ROBIN</loadBalancerStrategy>
+    <targets>
+        <entry>
+            <key>target1</key>
+            <value>1</value>
+        </entry>
+    </targets>
+</serviceCallOutConfiguration>

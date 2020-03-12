@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xml2JSONConfiguration policyName="XML2JSON" policyType="TRANSFORMATION">
+    <policyInstanceName>xml_to_json</policyInstanceName>
+    <indentFactor>4</indentFactor>
+    <removeNameSpacePrefixFromElements>true</removeNameSpacePrefixFromElements>
+    <skipNameSpaces>true</skipNameSpaces>
+</xml2JSONConfiguration>

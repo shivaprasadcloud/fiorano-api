@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<faultPolicyConfiguration policyName="FAULT_HANDLING" policyType="TRANSFORMATION">
+    <policyInstanceName>Restriction_error</policyInstanceName>
+    <createNew>false</createNew>
+    <ignoreUnresVar>false</ignoreUnresVar>
+    <messageFormat>JSON</messageFormat>
+    <removeMessageDetailsConfiguration>
+        <clearPayload>false</clearPayload>
+        <removeAllFormParams>false</removeAllFormParams>
+        <removeAllHeaders>false</removeAllHeaders>
+        <removeAllQueryParams>false</removeAllQueryParams>
+    </removeMessageDetailsConfiguration>
+    <setMessageDetailsConfiguration>
+        <FormParams/>
+        <headers/>
+        <QueryParams/>
+        <setPayload>false</setPayload>
+    </setMessageDetailsConfiguration>
+    <varRefPrefix>%</varRefPrefix>
+    <varRefSuffix>%</varRefSuffix>
+    <advancedView>false</advancedView>
+    <errorCode>-1</errorCode>
+</faultPolicyConfiguration>

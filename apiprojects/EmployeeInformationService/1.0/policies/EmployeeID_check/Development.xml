@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assignVariableConfiguration policyName="ASSIGN_VARIABLE" policyType="TRANSFORMATION">
+    <policyInstanceName>EmployeeID_check</policyInstanceName>
+    <ignoreIfNotExists>false</ignoreIfNotExists>
+    <params>
+        <entry>
+            <key>EmpId</key>
+            <value>
+                <constantVariableConfiguration>
+                    <value>false</value>
+                    <variableNamePrefix>%</variableNamePrefix>
+                    <variableNameSuffix>%</variableNameSuffix>
+                    <variablesInUse>false</variablesInUse>
+                </constantVariableConfiguration>
+                <ignoreCase>true</ignoreCase>
+                <namespaces/>
+                <pattern></pattern>
+                <source>CONSTANT</source>
+                <XMLPayload>false</XMLPayload>
+            </value>
+        </entry>
+    </params>
+</assignVariableConfiguration>

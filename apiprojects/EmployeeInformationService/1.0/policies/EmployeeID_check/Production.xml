@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assignVariableConfiguration policyName="ASSIGN_VARIABLE" policyType="TRANSFORMATION">
+    <policyInstanceName>EmployeeID_check</policyInstanceName>
+    <ignoreIfNotExists>false</ignoreIfNotExists>
+    <params/>
+</assignVariableConfiguration>

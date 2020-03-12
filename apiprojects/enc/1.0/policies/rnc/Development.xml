@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<encryptMessageConfiguration policyName="ENCRYPT_MESSAGE" policyType="SECURITY">
+    <policyInstanceName>rnc</policyInstanceName>
+    <allowPaddingToKey>true</allowPaddingToKey>
+    <decrypted>false</decrypted>
+    <digestAllowPaddingToKey>false</digestAllowPaddingToKey>
+    <digestEncryptDecryptAlgorithm>AES128</digestEncryptDecryptAlgorithm>
+    <digestEncryptDecryptKey>1234567800000000</digestEncryptDecryptKey>
+    <digestInitializationVector>initializationve</digestInitializationVector>
+    <digestKeySource>TEXT</digestKeySource>
+    <digestPGPSign>false</digestPGPSign>
+    <digestPGPVerify>false</digestPGPVerify>
+    <digestPrivateKeyPassword></digestPrivateKeyPassword>
+    <digestType>MD5</digestType>
+    <encryptDecryptAlgorithm>AES128</encryptDecryptAlgorithm>
+    <encryptDecryptKey>123456781234567812345678123456781234567812345678</encryptDecryptKey>
+    <initializationVector>87654321</initializationVector>
+    <keySource>TEXT</keySource>
+    <onlySignData>false</onlySignData>
+    <pgpSign>false</pgpSign>
+    <pgpVerify>false</pgpVerify>
+    <signEncryptedData>false</signEncryptedData>
+</encryptMessageConfiguration>

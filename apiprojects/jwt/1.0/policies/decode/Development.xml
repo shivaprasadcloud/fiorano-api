@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<decodeJsonWebTokenConfiguration policyName="DECODE_JSON_WEB_TOKEN" policyType="SECURITY">
+    <policyInstanceName>decode</policyInstanceName>
+    <jwtTokenIdentifier>
+        <defaultValue>ewogICJ0eXBlIiA6ICJKV1QiLAogICJhbGciIDogIkhTMjU2IiwKICAia0lEIiA6ICIxMjM0NTYiCn0=.ewogICJzdWIiIDogIkpzb24tVG9rZW4tR2VuZXJhdGlvblwiIiwKICAiaXNzIiA6ICJGaW9yYW5vIHNvZnR3YXJlIHByaXZhdGUgbHRkIiwKICAiYXVkIiA6ICJhdWRpZW5jZSIsCiAgImlhdCIgOiAiMTU0Mzk5MzY1NDUyMyIsCiAgImV4cCIgOiAiMTU0NDU5MzY1NDUyMyIsCiAgInNob3ciIDogIkp3dCB0b2tlbiAiLAogICJhZGRpdGlvbmFsQ2xhaW0iIDogeyB9Cn0=.w+QytOrnVklseLee6T8/MpSahHAS2XqXfNOA+l3xWTA=</defaultValue>
+        <name>jwt-token</name>
+        <type>HEADER</type>
+    </jwtTokenIdentifier>
+</decodeJsonWebTokenConfiguration>
