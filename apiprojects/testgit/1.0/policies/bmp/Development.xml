@@ -13,7 +13,7 @@
     <setMessageDetailsConfiguration>
         <FormParams/>
         <headers/>
-        <payload>FIORANO TESTING GIT CICD 1</payload>
+        <payload>FIORANO TESTING GIT CICD 2</payload>
         <QueryParams/>
         <setPayload>false</setPayload>
     </setMessageDetailsConfiguration>
